@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Triza's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="images/work 1.png" alt="Logo" class="logo-img" />
+      <div class="logo-text">Triza's Portfolio</div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="cv/Triza_CV.pdf" download>Download CV</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Triza</h1>
+      <p>A passionate chef, bringing the best culinary experiences.</p>
+      <a href="#portfolio" class="cta-button">See My Work</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="images/work 1.png" alt="Triza's Profile Picture" />
+      <p>I am Triza, a professional chef with over 10 years of experience in creating unique dishes that excite the senses. I specialize in fine dining, modern fusion, and global cuisine. Each plate is a story of creativity and flavor.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="images/work 1.png" alt="Signature Dish 1">
+        <div class="layer">
+          <h3>Signature Dish 1</h3>
+          <p>Bold, unexpected flavors using traditional techniques.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/work 2.png" alt="Signature Dish 2">
+        <div class="layer">
+          <h3>Signature Dish 2</h3>
+          <p>Global fusion with vibrant local ingredients.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/work 3.png" alt="Signature Dish 3">
+        <div class="layer">
+          <h3>Signature Dish 3</h3>
+          <p>A modern twist on a timeless favorite.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form">
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send Message</button>
+        <div id="loading-indicator"><i class="fas fa-spinner fa-spin"></i> Sending message...</div>
+        <div id="form-response" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>TEL: +254 104430376</p>
+    <p>TEL: +254 707095552</p>
+    <p>&copy; 2025 Triza. All rights reserved.</p>
+    <p>Designed by skinny.ke</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
